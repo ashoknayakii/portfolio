@@ -1,0 +1,16 @@
+.root {
+    --primary-color: #edb879;
+    --secondary-color: #1e81b0;
+    --tertiary-color: #eeeee4;
+    --backup-color: #76b5c5;
+}
+
+body {
+    color: var(--primary-color);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: var(--secondary-color);
+}
