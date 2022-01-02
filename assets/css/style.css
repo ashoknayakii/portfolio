@@ -12,7 +12,7 @@
 }
 
 body {
-    color: #edb879;
+    color: #eeeee4;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -63,20 +63,22 @@ figure img {
 /* Bio Styles Start*/
 
 .bio-section {
-    width: 900px;
-    margin: 0 auto 30px auto;
+    width: 75%;
+    float: left;
     background: #1e81b0;
-    overflow: auto;
 }
 
 .Bio img {
-    width: 400px;
+    width: 500px;
     display: inline-block;
     float: left;
 }
 
 .bio-text {
-    text-align: center;
+    text-align: left;
     font-size: 22px;
     float: right;
+    margin-right: 30px;
 }
+
+
