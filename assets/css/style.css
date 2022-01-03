@@ -31,7 +31,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: #eeeee4;
+    color: #edb879;
 }
 
 header nav {
@@ -44,7 +44,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #eeeee4;
+    color: #edb879;
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
@@ -65,20 +65,61 @@ figure img {
 .bio-section {
     width: 75%;
     float: left;
-    background: #1e81b0;
+    background: #76b5c5;
 }
 
-.Bio img {
-    width: 500px;
+.bio-title {
+    font-size: 28px;
+    font-weight: normal;
+    color:#edb879;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    float: center; 
+    border-bottom: 3px solid;
+}
+
+.Bio-card img {
+    width: 300px;
     display: inline-block;
     float: left;
 }
 
-.bio-text {
-    text-align: left;
-    font-size: 22px;
-    float: right;
-    margin-right: 30px;
+.about-me {
+    padding: 35px;
+    float: left;
+    width: 65%;
 }
+
+.about-me p {
+    font-size: 17px;
+    color: #edb879;
+    line-height: 1.5;
+}
+ 
+.text-left {
+    text-align: left;
+}
+
+
+/* Links */
+
+.links {
+    margin-right: 40px;
+    padding: 30px;
+    clear: both;
+    width: 20%;
+    float: right;
+    height: 100%;
+    background-color: #edb879;
+}
+
+
+/* Project Styles Begin */
+
+
+
+
+
 
 
