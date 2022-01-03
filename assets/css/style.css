@@ -123,6 +123,26 @@ figure img {
 
 /* Project Styles Begin */
 
+.my-work {
+    display: inline-block;
+    background-color: #dfc8a2;
+}
+
+.project-title {
+    font-size: 28px;
+    font-weight: normal;
+    color: #76b5c5;
+    text-align: center;
+    border-bottom: 3px solid;
+}
+
+.project-images {
+    width: 400px;
+    float: center;
+}
+
+
+
 
 
 
