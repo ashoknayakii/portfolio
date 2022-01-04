@@ -125,20 +125,44 @@ figure img {
 
 .my-work {
     display: inline-block;
-    background-color: #dfc8a2;
+    background-color: #76b5c5;
+    margin: 5px auto 5px auto;
+    overflow: auto;
+    font-size: 48px;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 50%;
 }
 
 .project-title {
     font-size: 28px;
     font-weight: normal;
-    color: #76b5c5;
+    color: #edb879;
     text-align: center;
     border-bottom: 3px solid;
 }
 
 .project-images {
-    width: 400px;
-    float: center;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-images img {
+    width: 450px;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.project-images h3 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #edb879;
 }
 
 
