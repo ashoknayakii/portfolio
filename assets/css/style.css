@@ -124,13 +124,13 @@ header nav ul li a {
     display:flex;
     flex-direction: column;
     background-color: #76b5c5;
-    margin: auto 50px;
+    /* margin: auto 50px; */
     /* overflow: auto; */
     font-size: 48px;
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
-    width: 80%;
+    width: 100%;
 }
 
 #projects-header {
@@ -149,8 +149,15 @@ header nav ul li a {
     width: fit-content;
 }   
 
-.project-image img{ 
+.project-image {
+    display: flex;
+    flex: flex-wrap;
+}
+
+.project-image img { 
   max-width: 300px;
+  display: flex;
+  flex: flex-wrap;
 }
 
 .project-title{
