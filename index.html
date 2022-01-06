@@ -11,7 +11,7 @@
 <!-- Navigation begins -->
     <header>
         <h1>
-            <a href="/">Ashok Nayak | Portfolio</a>
+            <a href="index.html">Ashok Nayak | Portfolio</a>
         </h1>
         <nav>
 <!-- Nav elements -->
@@ -30,7 +30,7 @@
     </header>
 
     <!-- hero/jumbotron -->
-<figure>
+<figure id='hero'>
     <img src="./assets/images/heropic.JPG" alt="grainy image of the shoreline" />
     
 </figure>
@@ -39,15 +39,15 @@
 
 <!-- Bio section begins -->
 <section id="Bio" class="bio-section">
-    <article class="Bio-card">
-        <img src="./assets/images/bio-pic.jpg" alt="Ashok standing against a stucco wall" />
-    <div class="about-me text-left">
+    <img id="profile-pic" src="./assets/images/bio-pic.jpg" alt="Ashok standing against a stucco wall" />
+    <div class="about-me">
         <h2 class="bio-title">About Me</h2>
-        <p>I am a full stack developer with a background in creative writing and customer service.  I have been writing, producing, collaborating and performing as an artist in NYC for the last 10 years.  
-            In addition, I have worked at some of New York’s best restaurants and am familiar with high pressure customer service environments.  I have begun work as a freelancer developing websites for 
-            artists in both the music and restaurant industries.  My mission is to create software that aids artists by creating the necessary infrastructure to give them a stronger platform for success.  </p>
+        <p>
+            I am a full stack developer with a background in creative writing and customer service. I have been writing, producing, collaborating and performing as an artist in NYC for the last 10 years.  
+        In addition, I have worked at some of New York’s best restaurants and am familiar with high pressure customer service environments. I have begun work as a freelancer developing websites for 
+        artists in both the music and restaurant industries. My mission is to create software that aids artists by creating the necessary infrastructure to give them a stronger platform for success. 
+        </p>
     </div>
-</article>
 </section>
 
 <!-- Links section begins -->
@@ -55,7 +55,7 @@
 <aside class="links">
     <article class="Link-logos">
         <a href="www.linkedin.com/in/ashok-nayak-a6a145208">
-        <img src="./assets/images/linkedin.svg" alt="linkedin logo" />
+        <img src="./assets/images/linkedin.svg" alt="linkedin logo"/>
         </a>
     </article>
     <article class="Link-logos">
@@ -68,32 +68,27 @@
 <!-- Project section begins -->
 
 <section id="Projects" class="my-work">
-    <h2 class="project-title">My Projects</h2>
-
-    <div class="project-images">
-        <img src="./assets/images/consultationplaceholder.jpg" alt="top-down view of a beautiful cortado" />[]
-        <h3>Artist Consultation</h3>
-        
+    <h2 id="projects-header">My Projects</h2>
+    <div id="project-images">
+    <div class="project-image">
+        <img src="./assets/images/consultationplaceholder.jpg" alt="top-down view of a beautiful cortado" />
+        <h3 class="project-title">Artist Consultation</h3>
     </div>
-
-    <div class="project-images">
+    <div class="project-image">
         <img src="./assets/images/platformplaceholder.jpg" alt="Dragonette concert abstract artist shining bright on stage" />
-        <h3>Designing Self-Sustaining Platforms</h3>
-
+        <h3 class="project-title"> Designing Self-Sustaining Platforms</h3>
     </div>
-
-    <div class="project-images">
+    <div class="project-image">
         <img src="./assets/images/mapplaceholder.jpg" alt="bird's eye view of Miami Beach" />
-        <h3>Mapping Connections</h3>
-
+        <h3 class="project-title">Mapping Connections</h3>
+    </div>
     </div>
 </section>
-
 
 <!-- footer -->
 
 <footer>
-    <span class="heart">&hearts;</span>Made with love by Ashok Nayak
+    <span class="heart"> &hearts;Made with love by Ashok Nayak</span>
 </footer>
 </body>
 </html>

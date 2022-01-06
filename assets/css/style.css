@@ -35,7 +35,7 @@ header a {
 }
 
 header nav {
-    float: right;
+    /* float: right; */
     margin: 7px 0;
 }
 
@@ -53,7 +53,7 @@ header nav ul li a {
 
 /* Hero Styles Start*/
 
-figure img {
+#hero {
     background-size: cover;
     background-position: center;
     position: relative;
@@ -63,32 +63,31 @@ figure img {
 /* Bio Styles Start*/
 
 .bio-section {
+    display:flex;
+    flex-direction: row;
     width: 75%;
-    float: left;
     background: #76b5c5;
 }
 
 .bio-title {
+    display:flex;
+    justify-self: center;
     font-size: 28px;
     font-weight: normal;
     color: #edb879;
     margin-top: 15px;
     margin-bottom: 35px;
     padding-bottom: 15px;
-    float: center; 
     border-bottom: 3px solid;
 }
 
-.Bio-card img {
-    width: 300px;
-    display: inline-block;
-    float: left;
+.bio-section img {
+    width: 300px
 }
 
 .about-me {
     padding: 35px;
-    float: left;
-    width: 65%;
+    width:auto;
 }
 
 .about-me p {
@@ -97,18 +96,16 @@ figure img {
     line-height: 1.5;
 }
  
-.text-left {
-    text-align: left;
-}
+
 
 
 /* Links */
 
-.links {
+.links { 
+    display:flex;
     margin-right: 15px;
     padding: 30px;
     width: 23%;
-    float: right;
     height: 100%;
     background-color: #edb879;
 }
@@ -124,18 +121,19 @@ figure img {
 /* Project Styles Begin */
 
 .my-work {
-    display: inline-block;
+    display:flex;
+    flex-direction: column;
     background-color: #76b5c5;
-    margin: 5px auto 5px auto;
-    overflow: auto;
+    margin: auto 50px;
+    /* overflow: auto; */
     font-size: 48px;
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
-    width: 50%;
+    width: 80%;
 }
 
-.project-title {
+#projects-header {
     font-size: 28px;
     font-weight: normal;
     color: #edb879;
@@ -143,23 +141,19 @@ figure img {
     border-bottom: 3px solid;
 }
 
-.project-images {
+#project-images {
+    display: flex;
+    flex-direction: row;
     margin: 50px auto;
     padding-bottom: 50px;
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    width: fit-content;
+}   
+
+.project-image img{ 
+  max-width: 300px;
 }
 
-.project-images img {
-    width: 450px;
-    max-width: 100%;
-    display: inline-block;
-}
-
-.project-images h3 {
+.project-title{
     font-size: 24px;
     font-weight: normal;
     color: #edb879;
