@@ -19,14 +19,19 @@ body {
 header {
     padding: 20px 35px;
     background-color: #76b5c5;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
+    display: inline-flex;
+    flex: flex-wrap;
     font-weight: normal;
     font-size: 36px;
-    color: #eeeee4;
+    /* color: #eeeee4; */
     margin: 0;
-    display: inline;
+    /* display: inline; */
 }
 
 header a {
@@ -40,12 +45,17 @@ header nav {
 }
 
 header nav ul li {
-    display: inline;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 30px;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
     color: #edb879;
-    margin: 0 30px;
+    margin: 20 35px;
     font-weight: lighter;
     font-size: 22px;
 }
@@ -54,9 +64,13 @@ header nav ul li a {
 /* Hero Styles Start*/
 
 #hero {
+    width: 800px;
     background-size: cover;
-    background-position: center;
-    position: relative;
+    /* background-position: center; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* position: relative; */
     max-width: 100%;
 }
 
