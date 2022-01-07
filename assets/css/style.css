@@ -63,15 +63,17 @@ header nav ul li a {
 
 /* Hero Styles Start*/
 
-#hero {
-    width: 800px;
-    background-size: cover;
-    /* background-position: center; */
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    /* position: relative; */
+figure img {
     max-width: 100%;
+    display: flex;
+    wrap: flex-wrap;
+}
+
+#hero {
+    max-width: 100%;
+    background-size: cover;
+    display: -webkit-inline-flex;
+    justify-content: center;
 }
 
 /* Bio Styles Start*/
@@ -81,6 +83,7 @@ header nav ul li a {
     flex-direction: row;
     width: 75%;
     background: #76b5c5;
+    border-radius: 15px;
 }
 
 .bio-title {
