@@ -77,6 +77,11 @@ figure img {
 }
 
 /* Bio Styles Start*/
+main {
+    display: inline-flex;
+    flex: flex-wrap;
+    justify-content: space-evenly;
+}
 
 .bio-section {
     display:flex;
@@ -113,18 +118,27 @@ figure img {
     line-height: 1.5;
 }
  
-
-
-
 /* Links */
 
+aside {
+    display: inline-flex;
+    flex: flex-wrap;
+    justify-content: flex-end;
+}
+
 .links { 
+    margin: 5px 0 5px 0;
     display:flex;
-    margin-right: 15px;
-    padding: 30px;
-    width: 23%;
+    flex: flex-wrap;
+    flex-direction: column;
+    margin-top: inherit;
+    margin-bottom: inherit;
+    margin-right: -3px;
+    padding: 40px;
+    width: 22%;
     height: 100%;
     background-color: #edb879;
+    border-radius: 15px;
 }
 
 .Link-logos img {
