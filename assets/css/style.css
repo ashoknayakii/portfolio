@@ -29,9 +29,8 @@ header h1 {
     flex: flex-wrap;
     font-weight: normal;
     font-size: 36px;
-    /* color: #eeeee4; */
     margin: 0;
-    /* display: inline; */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 header a {
@@ -40,7 +39,6 @@ header a {
 }
 
 header nav {
-    /* float: right; */
     margin: 7px 0;
 }
 
@@ -60,6 +58,35 @@ header nav ul li a {
     font-size: 22px;
 }
 
+header nav ul li a:hover {
+    background: #1e81b0;
+    color: honeydew;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+/* Footer Styles Start */
+
+footer {
+    background: #edb879;
+    width: 100%;
+    padding: 40px 35px;
+    margin-top: 5px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer span {
+    color: #eeeee4;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 0;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+
 
 /* Hero Styles Start*/
 
@@ -67,6 +94,7 @@ figure img {
     max-width: 100%;
     display: flex;
     wrap: flex-wrap;
+
 }
 
 #hero {
@@ -89,6 +117,7 @@ main {
     width: 75%;
     background: #76b5c5;
     border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .bio-title {
@@ -100,11 +129,13 @@ main {
     margin-top: 15px;
     margin-bottom: 35px;
     padding-bottom: 15px;
-    border-bottom: 3px solid;
+    border-bottom: 5px solid honeydew;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
 }
 
 .bio-section img {
-    width: 300px
+    width: 300px;
+    
 }
 
 .about-me {
@@ -116,6 +147,7 @@ main {
     font-size: 17px;
     color: #eeeee4;
     line-height: 1.5;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
  
 /* Links */
@@ -124,6 +156,7 @@ aside {
     display: inline-flex;
     flex: flex-wrap;
     justify-content: flex-end;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .links { 
@@ -155,19 +188,19 @@ aside {
     display:flex;
     flex-direction: column;
     background-color: #76b5c5;
-    border-bottom: 3px solid;
     padding-bottom: 20px;
     width: 100%;
     border-radius: 15px;
 }
 
 #projects-header {
-    font-size: 28px;
-    font-weight: normal;
+    font-size: 32px;
+    font-weight: bolder;
     padding: 45px 0px 15px 0px;
     color: #eeeee4;
     text-align: center;
-    border-bottom: 3px solid;
+    border-bottom: 5px solid honeydew;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 #project-images {
@@ -185,12 +218,10 @@ aside {
     flex: flex-wrap;
     margin-left: 75px;
     margin-right: 60px;
-    /* vertical-align: top; */
     display: table-caption
 }
 
 .project-image img { 
-  /* max-width: 300px; */
   width: 300px;
   height: 300px;
   display: flex;
@@ -203,6 +234,7 @@ figcaption {
     font-weight: bold;
     color: #eeeee4;
     text-align: center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 
