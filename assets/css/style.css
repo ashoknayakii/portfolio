@@ -164,7 +164,7 @@ aside {
 #projects-header {
     font-size: 28px;
     font-weight: normal;
-    padding: 40px 0px 15px 0px;
+    padding: 45px 0px 15px 0px;
     color: #eeeee4;
     text-align: center;
     border-bottom: 3px solid;
@@ -183,8 +183,8 @@ aside {
 .project-image {
     display: flex;
     flex: flex-wrap;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 75px;
+    margin-right: 60px;
     /* vertical-align: top; */
     display: table-caption
 }
