@@ -1,8 +1,8 @@
 .root {
-    --primary-color: #edb879;
-    --secondary-color: #1e81b0;
+    --primary-color: #76b5c5;
+    --secondary-color: #edb879;
     --tertiary-color: #eeeee4;
-    --backup-color: #76b5c5;
+    --backup-color: rgb(240, 255, 240);
 }
 
 * {
@@ -12,7 +12,7 @@
 }
 
 body {
-    color: #eeeee4;
+    /* color: #eeeee4; */
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -87,14 +87,12 @@ footer span {
 }
 
 
-
 /* Hero Styles Start*/
 
 figure img {
     max-width: 100%;
     display: flex;
-    wrap: flex-wrap;
-
+    /* wrap: flex-wrap; */
 }
 
 #hero {
