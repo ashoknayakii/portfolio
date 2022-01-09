@@ -1,4 +1,4 @@
-.root {
+:root {
     --primary-color: #76b5c5;
     --secondary-color: #edb879;
     --tertiary-color: #eeeee4;
@@ -12,13 +12,12 @@
 }
 
 body {
-    /* color: #eeeee4; */
     font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
     padding: 20px 35px;
-    background-color: #76b5c5;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -35,7 +34,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: #eeeee4;
+    color: var(--tertiary-color);
 }
 
 header nav {
@@ -52,7 +51,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #eeeee4;
+    color: var(--tertiary-color);
     margin: 20 35px;
     font-weight: lighter;
     font-size: 22px;
@@ -60,7 +59,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background: #1e81b0;
-    color: honeydew;
+    color: var(--backup-color);
     padding: 8px;
     border-radius: 15px;
 }
@@ -78,12 +77,15 @@ footer {
     flex-wrap: wrap;
 }
 
-footer span {
-    color: #eeeee4;
+footer h3 {
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+footer p {
     font-weight: normal;
-    font-size: 24px;
+    font-size: 18px;
     margin: 0;
-    text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -92,7 +94,6 @@ footer span {
 figure img {
     max-width: 100%;
     display: flex;
-    /* wrap: flex-wrap; */
 }
 
 #hero {
@@ -103,6 +104,7 @@ figure img {
 }
 
 /* Bio Styles Start*/
+
 main {
     display: inline-flex;
     flex: flex-wrap;
@@ -113,7 +115,7 @@ main {
     display:flex;
     flex-direction: row;
     width: 75%;
-    background: #76b5c5;
+    background: var(--primary-color);
     border-radius: 15px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
@@ -123,11 +125,11 @@ main {
     justify-self: center;
     font-size: 28px;
     font-weight: normal;
-    color: #eeeee4;
+    color: var(--tertiary-color);
     margin-top: 15px;
     margin-bottom: 35px;
     padding-bottom: 15px;
-    border-bottom: 5px solid honeydew;
+    border-bottom: 5px solid var(--backup-color);
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
 }
 
@@ -143,7 +145,7 @@ main {
 
 .about-me p {
     font-size: 17px;
-    color: #eeeee4;
+    color: var(--tertiary-color);
     line-height: 1.5;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
@@ -185,7 +187,7 @@ aside {
 .my-work {
     display:flex;
     flex-direction: column;
-    background-color: #76b5c5;
+    background-color: var(--primary-color);
     padding-bottom: 20px;
     width: 100%;
     border-radius: 15px;
@@ -195,9 +197,9 @@ aside {
     font-size: 32px;
     font-weight: bolder;
     padding: 45px 0px 15px 0px;
-    color: #eeeee4;
+    color: var(--tertiary-color);
     text-align: center;
-    border-bottom: 5px solid honeydew;
+    border-bottom: 5px solid var(--backup-color);
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -230,7 +232,7 @@ figcaption {
     font-size: 18px;
     padding-top: 10px;
     font-weight: bold;
-    color: #eeeee4;
+    color: var(--tertiary-color);
     text-align: center;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
