@@ -1,1 +1,3 @@
-# portfolio
+#Introduction to my Portfolio
+
+Welcome to my portfolio.  Here I have begun an initial work to establish my background and skills.  I wanted to create a basic layout referencing the instruction that we have had thus far on advanced CSS and something that would be visually and stylistically appealing so that I can build on the more technical aspects going forward.  As such, the project section is large enough to accomodate more images as needed and the link section will grow as I improve upon my other socials and repos.  While not entirely comprehensive in its current state, the site should be responsive to tablets and mobile phones using media queries.  Looking forward to building from here.
