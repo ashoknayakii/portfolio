@@ -107,7 +107,7 @@ figure img {
 
 main {
     display: inline-flex;
-    flex: flex-wrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -170,14 +170,14 @@ aside {
     padding: 40px;
     width: 22%;
     height: 100%;
-    background-color: #edb879;
+    background-color: var(--secondary-color);
     border-radius: 15px;
 }
 
 .Link-logos img {
     display: block;
     margin: 10px auto;
-    width: 100%;
+    width: 75%;
     height: auto;
 }
 
@@ -185,7 +185,7 @@ aside {
 /* Project Styles Begin */
 
 .my-work {
-    display:flex;
+    /* display:flex; */
     flex-direction: column;
     background-color: var(--primary-color);
     padding-bottom: 20px;
@@ -206,7 +206,7 @@ aside {
 #project-images {
     display: flex;
     flex-direction: row;
-    flex: wrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 50px auto;
     padding-bottom: 50px;
@@ -224,6 +224,7 @@ aside {
 .project-image img { 
   width: 300px;
   height: 300px;
+  margin-top: 40px;
   display: flex;
   flex: flex-wrap;
 }
@@ -237,7 +238,63 @@ figcaption {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
+/* MEDIA QUERIES FOR TABLETS, MOBILE PHONES AND SMALLER*/
 
+@media screen and (max-width: 768px) {
+
+    main {
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .bio-section {
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        max-height: 300px;
+    }
+
+    .bio-title {
+        font-size: 2.2vw;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        padding-bottom: 12px;
+    }
+
+    .bio-section img {
+        min-width: 250px;
+    }
+
+    .about-me {
+        padding: 20px 20px 20px 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+    }
+
+    .about-me p {
+        font-size: 1.6vw
+    }
+
+    .links {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        flex-direction: row;
+        width: 100%
+    }
+
+    .Link-logos img {
+        width: 50%;
+    }
+
+    #project-images {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 
 
